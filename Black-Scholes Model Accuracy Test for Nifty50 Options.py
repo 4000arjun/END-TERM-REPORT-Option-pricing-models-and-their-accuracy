@@ -55,19 +55,8 @@ def black_scholes(S, K, T, r, sigma, option_type='call'):
 # --- Main Execution: Assess Model Accuracy from CSV ---
 
 if __name__ == "__main__":
-    # --- 1. PREPARE YOUR CSV FILE ---
-    # Create a CSV file named 'nifty_options_data.csv' in the same folder as this script.
-    # It must have the following columns:
-    # Date, Nifty_Close, Strike_Price, Expiry_Date, Option_Type, Option_Close
-    #
-    # - Date: The date of observation (e.g., '2025-08-08')
-    # - Nifty_Close: The closing price of the Nifty50 index (e.g., 25483.50)
-    # - Strike_Price: The option's strike price (e.g., 25500)
-    # - Expiry_Date: The option's expiration date (e.g., '2025-08-28')
-    # - Option_Type: The type of option, must be 'call' or 'put'
-    # - Option_Close: The actual closing market price of the option (e.g., 315.00)
-
-    CSV_FILE_NAME = 'nifty_options_data (final 1).csv'
+    
+    CSV_FILE_NAME = 'nifty_options_data (final 2).csv'
 
     # --- 2. LOAD AND PROCESS DATA FROM CSV ---
     try:
